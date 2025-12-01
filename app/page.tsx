@@ -373,10 +373,10 @@ function StatsSection() {
 function CTASection() {
   return (
     <section className="container mx-auto px-6 py-24">
-      <Card className="relative overflow-hidden bg-gradient-to-br from-[#D4AF37]/20 to-[#FFEB3B]/20 border-[#D4AF37]/30 p-12 text-center">
+      <Card className="relative overflow-hidden bg-white/5 border-white/10 p-12 text-center">
         <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
         <div className="relative z-10">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-[#D4AF37]">
             Ready to Automate Your Future?
           </h2>
           <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
